@@ -6,6 +6,7 @@
 #MACHINE ?= "nitrogen8mm"
 #MACHINE ?= "nitrogen8mm-dwe"
 #MACHINE ?= "solidrun-n6g"
+#MACHINE ?= "mys-6ull"
 
 # More info meta-resin/README.md
 #TARGET_REPOSITORY ?= ""
