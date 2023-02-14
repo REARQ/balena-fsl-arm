@@ -19,8 +19,3 @@ HOSTAPP_HOOKS:append:nitrogen8mm = " \
     99-resin-uboot \
     99-flash-bootloader-nitrogen8mm \
 "
-
-HOSTAPP_HOOKS:append:mys-6ull = " \
-    99-resin-uboot \
-    99-flash-bootloader-mys-6ull \
-"

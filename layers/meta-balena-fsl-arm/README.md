@@ -7,4 +7,4 @@ boards supported by meta-freescale,meta-freescale-3rdparty,meta-solidrun-arm-imx
 ## Supported machines
 * nitrogen6x
 * solidrun-imx6 (cubox-i,hummingboard,hummingboard2)
-* mys-6ull (myir-imx6,myc-y6uly2,myd-y6uly2)
+* myd-y6ull14x14 (Y6ULX-Y2)

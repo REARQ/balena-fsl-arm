@@ -3,8 +3,8 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 
 module.exports =
 	version: 1
-	slug: 'mys-6ull'
-	aliases: [ 'mys-6ull', 'myir-imx6', 'myc-y6uly2', 'myc-y6uly2-v2', 'myd-y6uly2', 'myd-y6uly2-v2' ]
+	slug: 'myd-y6ull14x14'
+	aliases: [ 'myd-y6ull14x14' ]
 	name: 'MYiR MYC-Y6ULY2-V2'
 	arch: 'armv7hf'
 	state: 'new'
@@ -15,11 +15,11 @@ module.exports =
 	options: [ networkOptions.group ]
 
 	yocto:
-		machine: 'mys-6ull'
+		machine: 'myd-y6ull14x14'
 		image: 'balena-image-flasher'
 		fstype: 'balenaos-img'
-		version: 'yocto-rocko'
-		deployArtifact: 'balena-image-flasher-mys-6ull.balenaos-img'
+		version: 'yocto-gatesgarth'
+		deployArtifact: 'balena-image-flasher-myd-y6ull14x14.balenaos-img'
 		compressed: true
 
 	configuration:
